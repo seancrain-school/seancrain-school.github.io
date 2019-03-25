@@ -52,6 +52,13 @@ li.dropdown {
 	display: block;
 }
 
+#mainlogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
 ul.active{
 	background-color: #002BFF;
 }
