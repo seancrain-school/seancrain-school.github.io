@@ -15,7 +15,23 @@ p {
 	line-height:28px;
 }
 
-.container {
-	width: 50%;
-	float: center;
+.column:left {
+	float: left;
+	width: 15%;
+}
+
+.column:center {
+	float: left;
+	width: 70%;
+}
+
+.colum:right {
+	float: left;
+	width: 15%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
