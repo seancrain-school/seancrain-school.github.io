@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Navigation Bar - EAST-O Project 1</title>
-		<link rel="stylesheet" href="navstyles.css">
+		<link rel="stylesheet" href="/navstyles.css">
 		<script type = "text/javascript" src="https://www.google.com/jsapi"></script>
 		<script type="text/javascript">
 		//load jQuery
@@ -23,8 +23,12 @@
 	<body>
 		<div>
 			<ul>
-				<li style="float: center"><a href="index.html">Home</a></li>
-				<li style="float: center"><a href="projects.html">Projects</a></li>
+				<li style="float: center"><a href="/index.html">Home</a></li>
+				<li class="dropdown" style="float: center"><a href="/projects/projects.html" class="dropbtn">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="/projects/360.html">360 View</a>
+                    </div>
+                </li>
 			</ul>
 		</div>
 	</body>
